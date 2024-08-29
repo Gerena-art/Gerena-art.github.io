@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Profile Webpage</title>
+        <style>
+            #header {
+                min-height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                font-variant: small-caps;
+                font-family: 'Georgia', serif;
+                
+            }
+
+            #about {
+                text-align: center;
+                margin-top: 20px;   
+                
+            }
+            #about img {
+            border: 2px solid black;
+            width: 150px;
+            height: auto;
+            float : left;
+            /*border-radius: 50%;*/
+            }
+            #about p {
+            font-size: 18px;
+            color:darkgreen;
+            font-family: 'Verdana', sans-serif;
+            margin-top: 10px;
+            }
+             /* Estilo para los links */
+             #about a {
+            margin: 0 10px;
+            color:chartreuse;
+            text-decoration: none;
+            }
+
+        /* Estilo para la sección work-samples */
+             #work-samples {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            width: 80%;
+             }
+
+            #work-samples div {
+            text-align: center;
+             }
+
+             #work-samples img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+             }
+
+             #work-samples ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 16px;
+            font-family: 'Courier New', monospace;
+            }
+
+        /* Estilo para el footer */
+            #footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+             }
+
+
+        </style>
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- Header-->
+
+    <div id="header" >
+
+        <div>Hi! I am <strong>Sofia</strong></div>
+    </div>
+    
+    <div id="about">
+        <img src="img/foto perfil.jpg" alt="" width="200px"  >
+        <p>I am agricultural engineere pursing a master degree focused on digital agriculture because as undergrad I had the opportunity  
+            to take a few courses about it and loved it. My research is focused on data integration for dairy milk producton at Purdue milk farms</p>
+        <a href="https://github.com/Gerena-art/Gerena-art.github.io">GitHub</a>
+        <a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a>
+        <a href="mailto:your-email@example.com">
+            <img src="noun-mail-icon.png" alt="Mail" width="20px">
+        </a>
+    </div>
+    <!-- Work Samples Section -->
+    <div id="work-samples">
+        <div>
+            <img src="img/feed.jpg" alt="Work Sample 1">
+            <ul>
+                <li>For the dairy milk production feedstock is one of the most expensive inlets. I work in a team which aim 
+                    is to find how cow feedstock affects milk production 
+                </li>
+            </ul>
+        </div>
+        <div>
+            <img src="img/milk.jpg" alt="Work Sample 2">
+            <ul>
+                <li>But dairy production is not just about cow food. It has to do a lot with the enviroment. Animal confort is the concept 
+                    that defines the best conditons for an animal to have their best performance in production. It is realted with barn temperatura}
+                    humidity, etc
+                </li>
+            </ul>
+        </div>
+        <div>
+            <img src="img/IoT.jpg" alt="Work Sample 3">
+            <ul>
+                <li>The ways we are going to get data from Purdue dairy farms are artificial vision and IoT. Artifcial vision to idendifies 
+                    the cows in the barn trhoght a camera at barns celing. IoT to get all the enviromental data 24/7 at the barn. My research 
+                is focus on integrate all the data avilable and find a relatioship between all the varaibles and milk production. </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        Ankita &bull; Last Updated: August 23, 2024
+    </div>
+
+
+</body>
+
+</html>
